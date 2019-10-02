@@ -5,14 +5,14 @@ namespace Tests\Unit\Libraries;
 use App\Device_Detect;
 use Mobile_Detect;
 use Mockery;
-use PHPUnit\Framework\TestCase;
+use Mockery\Adapter\Phpunit\MockeryTestCase;
 
 /**
  * Class Device_DetectTest
  *
  * @package Tests\Unit\Libraries
  */
-class Device_DetectTest extends TestCase
+class Device_DetectTest extends MockeryTestCase
 {
     /**
      * @var Mobile_Detect|Mockery\LegacyMockInterface|Mockery\MockInterface
@@ -20,10 +20,13 @@ class Device_DetectTest extends TestCase
     private $mockMobile_Detect;
 
     /**
-     * @var mixed
+     * @var Device_Detect
      */
     private $deviceDetect;
 
+    /**
+     * Set private vars
+     */
     protected function setUp(): void
     {
         parent::setUp();
@@ -107,7 +110,8 @@ class Device_DetectTest extends TestCase
      */
     public function getMobileDeviceTypeTest()
     {
-        $userAgentMobile = 'Mozilla/5.0 (Linux; Android 8.0.0; Nexus 5X Build/OPR4.170623.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36';
+        $userAgentMobile = 'Mozilla/5.0 (Linux; Android 8.0.0; Nexus 5X Build/OPR4.170623.006) AppleWebKit/537.36 (KHTML, like Gecko) 
+                            Chrome/67.0.3396.87 Mobile Safari/537.36';
 
         $this->mockMobile_Detect->shouldReceive('isMobile')
             ->withArgs([$userAgentMobile])
