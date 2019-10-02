@@ -177,6 +177,8 @@ class Device_Detect
     }
 
     /**
+     * Get device type
+     *
      * @param null $userAgent
      * @return string
      */
