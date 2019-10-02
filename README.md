@@ -17,7 +17,7 @@ or include the dependency in the `composer.json` file:
 ```json
 {
     "require": {
-        "devicedetect/devicedetectlib": "1.0"
+        "devicedetect/devicedetectlib": "^1.0.*"
     }
 }
 ```
