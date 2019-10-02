@@ -135,6 +135,8 @@ class Device_Detect
     }
 
     /**
+     * Prepare user agent string
+     *
      * @param string $userAgent
      * @return string
      */
