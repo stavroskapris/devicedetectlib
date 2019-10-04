@@ -11,7 +11,7 @@ library. It uses the User-Agent string combined with specific HTTP headers to id
 As a [composer package](https://packagist.org/packages/devicedetect/devicedetectionlib)
 
 ```
-composer require devicedetect/devicedetectlib
+composer require devicedetect/devicedetectionlib
 ```
 or include the dependency in the `composer.json` file:
 ```json
