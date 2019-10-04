@@ -1,11 +1,13 @@
 {
   "name": "devicedetect/devicedetectionlib",
-  "description": "This is TODO",
+  "description": "This a device detection-identification library",
   "keywords": ["device", "device detect", "device detector", "php device detect", "device identification"],
+  "license": "MIT",
   "authors": [
     {
       "name": "Stavros Kapridakis",
-      "email": "stavroskapridakis@gmail.com"
+      "email": "stavroskapridakis@gmail.com",
+      "role": "Developer"
     }
   ],
   "type": "library",

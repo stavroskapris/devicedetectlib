@@ -2,13 +2,13 @@
 
 #### About
 
-Device Detect is a lightweight PHP class for detecting devices. It is based on [mobiledetect](https://github.com/serbanghita/Mobile-Detect).
-It uses the User-Agent string combined with specific HTTP headers to identify devices (browser,os etc).
+Device Detect is a lightweight PHP class for detecting devices. It is based on [mobiledetect](https://github.com/serbanghita/Mobile-Detect)
+library. It uses the User-Agent string combined with specific HTTP headers to identify devices (browser, os etc).
 
 
 #### Install
 
-As a [composer package](https://packagist.org/packages/mobiledetect/mobiledetectlib)
+As a [composer package](https://packagist.org/packages/devicedetect/devicedetectionlib)
 
 ```
 composer require devicedetect/devicedetectlib
@@ -17,7 +17,7 @@ or include the dependency in the `composer.json` file:
 ```json
 {
     "require": {
-        "devicedetect/devicedetectlib": "^1.0.*"
+        "devicedetect/devicedetectionlib": "1.0.*"
     }
 }
 ```
