@@ -1,6 +1,6 @@
 {
   "name": "devicedetect/devicedetectionlib",
-  "description": "This a device detection-identification library",
+  "description": "This is a device detection-identification library",
   "keywords": ["device", "device detect", "device detector", "php device detect", "device identification"],
   "license": "MIT",
   "authors": [
