@@ -24,6 +24,7 @@ or include the dependency in the `composer.json` file:
 #### Usage
 ```php
 <?php
+
 /**
   * Retrieve the User-Agent.
   * @method getUserAgent()
